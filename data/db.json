@@ -1,0 +1,18 @@
+{
+    "cards": [
+        {
+            "id": 1,
+            "timer": 1000,
+            "color": "#6341B4"
+        }, 
+        {
+            "id": 2,
+            "timer": 1500,
+            "color": "#F85ACA"
+        }, {
+            "id": 3,
+            "timer": 500,
+            "color": "#DAFA8B"
+        }
+    ]
+}
