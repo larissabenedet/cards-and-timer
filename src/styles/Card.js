@@ -6,10 +6,14 @@ export const Card = styled.div`
     justify-content: center;
     align-items: center;
     padding: 40px;
-    border: 6px solid ${(props) => (props.color ? props.color : '#000')};
-    color: ${(props) => (props.color ? props.color : '#000')};
+    min-height: 140px;
+    border: 6px solid
+        ${(props) => (props.contentColor ? props.contentColor : '#000')};
+    color: ${(props) => (props.contentColor ? props.contentColor : '#000')};
     font-weight: 500;
     border-radius: 10px;
-    width: 60%;
-    background-color: #fcf8e8;
+    width: 70%;
+    background-color: ${(props) =>
+        props.backgroundColor ? props.backgroundColor : '#fcf8e8'};
+    transition: all 0.5s;
 `
