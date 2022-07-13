@@ -10,7 +10,7 @@ export const CardsProvider = ({ children }) => {
     }, [])
 
     const fetchCardsData = () => {
-        fetch('../../public/data.json')
+        fetch('./data.json')
             .then((data) => {
                 return data.json()
             })
