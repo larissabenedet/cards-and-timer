@@ -10,12 +10,12 @@ export const CardsProvider = ({ children }) => {
     }, [])
 
     const fetchCardsData = () => {
-        fetch('http://localhost:8000/cards')
+        fetch('../../data/data.json')
             .then((data) => {
                 return data.json()
             })
             .then((data) => {
-                setCards(data)
+                setCards(data.cards)
             })
     }
 
