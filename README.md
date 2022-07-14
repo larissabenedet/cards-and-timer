@@ -22,7 +22,7 @@ Esse projeto renderiza três cards que se transformam em sua cor por completo ap
 6. Acesse o server no browser em `localhost:3000`
 ---
 ### <a name="en">English 🇺🇸</a>
-This project renders three cards, that will be fullfiled with their own colors after a certain time in ms.
+This project renders three cards, that will be fullfilled with their own colors after a certain time in ms.
 [Click here to access the project](https://cards-and-timer.vercel.app)
 
 #### How to run the project
